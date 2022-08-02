@@ -1,0 +1,142 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Cormorant SC', serif;
+font-family: 'Ibarra Real Nova', serif;
+font-family: 'Nunito', sans-serif;
+
+  background-color: #58756c;
+  margin: 0px;
+  padding: 0px;
+}
+
+body p {
+  font-size: 150%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #093625;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+/* background-image: url("https://i.pinimg.com/originals/ba/a6/8c/baa68c44029a8c7739245963363beec7.jpg"); */
+}
+
+li a {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right: 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: green;
+}
+
+
+nav a {
+  float: right;
+  display: block;
+  padding: 14px;
+}
+
+/* .intro, .contacts {
+  border: 2px solid #20243b;
+  padding-left: 10px;
+} */
+
+.intro {
+  background-image: url("https://media.istockphoto.com/photos/tropical-leaves-abstract-green-leaves-texture-nature-background-picture-id1254474165?b=1&k=20&m=1254474165&s=170667a&w=0&h=4yiAJ1tXxs3zoEL6S1bPpKSxpbF3XIiTb-bGMedoDtk=");
+  background-size: cover;
+  background-position: bottom;
+  padding: 150px;
+}
+
+.introtitle {
+  font-size: 200%;
+  text-align: center;
+  color: lightgreen;
+}
+
+.intro p {
+  text-align: center;
+  color: lightgreen;
+  font-size: 150%;
+}
+
+.photo {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.contacts {
+  padding-left: 80px;
+  padding-top: 50px;
+  border-top: 2px solid black;
+}
+
+.gmailpic {
+  width: 128px;
+  height: 128px;
+}
+
+.aboutme {
+  padding: 80px;
+}
+
+.gtkmtitle {
+  color: lightgreen;
+  margin: 0px;
+  padding: 10px;
+  font-size: 200%;
+  text-align: center;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/08/11/10549/1904819fb3e39290c6e5575a5777716c.jpg");
+  background-size: cover;
+  background-position: top;
+  border-bottom: 2px solid black;
+}
+
+.experience {
+  padding: 80px;
+}
+
+.exptitle {
+   color: lightgreen;
+  margin: 0px;
+  padding: 10px;
+  font-size: 200%;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHBsYW50fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  background-size: cover;
+  background-position: top;
+  border-bottom: 2px solid black;
+}
+
+.experience a {
+  color: black;
+}
+
+.experience a:hover {
+  color: #093625;
+}
+
+.experience li {
+  font-size: 150%;
+}
+
+.experience h3 {
+  font-size: 150%;
+}
+
+.stemimg{
+  width: 20%;
+  height:7%;
+}
